@@ -1,26 +1,34 @@
-# SahayakAI
+# Sahayakai
 
-An AI-powered Welfare Eligibility & Assistance Platform built using IBM Cloud.
+Eligibility prediction and assistance platform powered by AI.
 
-## Features
+## Project Structure
 
-- IBM watsonx AutoAI for ML prediction
-- IBM watsonx.ai for AI-powered explanations
-- IBM Orchestrate workflow automation
-- React + Vite frontend
-- IBM Cloud deployment
-- Analytics Dashboard
-- AI-powered Eligibility Reports
+```
+sahayakai/
+├── frontend/          # React frontend application
+├── docs/              # Documentation
+├── assets/            # Project assets (logos, banners)
+└── .github/           # GitHub workflows and configs
+```
 
-## Tech Stack
+## Getting Started
 
-- React + Vite
-- IBM watsonx.ai
-- IBM AutoAI
-- IBM Orchestrate
-- IBM Cloud
-- Vercel
+### Frontend
 
-## Project Status
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-🚧 Under Development as part of the Edunet Foundation × IBM SkillsBuild Internship.
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [API Documentation](docs/api.md)
+- [Deployment Guide](docs/deployment.md)
+- [User Guide](docs/user-guide.md)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
